@@ -28,10 +28,10 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "13487236")
     API_HASH  = os.environ.get("API_HASH", "c869e87de280d98b363fced8e492ab40")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5909532788:AAExRJ3UYYwR4abFw2kZjNx0j96Fw6lXqD8") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5909532788:AAHYaDFIcrlaz52NcQYQNBt-6siZ-QykAbQ") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
+    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://admin: admin@cluster0.iteow9t.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
